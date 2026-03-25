@@ -1,19 +1,28 @@
-This project is a beginner-friendly Python implementation of basic text analysis techniques. It processes text documents, computes word and letter frequencies, measures similarity between texts, and identifies important words using TF-IDF (Term Frequency–Inverse Document Frequency).
+<h1> Document Distance & TF-IDF Analyzer</h1>
 
-Load and clean text files (remove punctuation, normalize case)
-Convert text into word lists
-Compute:
-  Word frequencies
-  Letter frequencies
-Calculate similarity between texts
-Find most frequent words across documents
-Compute:
-  TF (Term Frequency)
-  IDF (Inverse Document Frequency)
-  TF-IDF scores
+<h2>Overview</h2>
+<p>
+This project is a beginner-friendly Python implementation of basic <strong>text analysis techniques</strong>. 
+It processes text documents, computes word and letter frequencies, measures similarity between texts, 
+and identifies important words using <strong>TF-IDF (Term Frequency–Inverse Document Frequency)</strong>.
+</p>
 
-document_distance.py   # Main program file
+<h2> Features</h2>
+<ul>
+    <li>Load and clean text files</li>
+    <li>Convert text into word lists</li>
+    <li>Compute word and letter frequencies</li>
+    <li>Calculate similarity between texts</li>
+    <li>Find most frequent words</li>
+    <li>Compute TF, IDF, and TF-IDF</li>
+</ul>
+
+<h2> Project Structure</h2>
+<pre>
+document_distance.py
 tests/
-  └── student_tests/
-        ├── hello_world.txt
-        └── hello_friends.txt
+ └── student_tests/
+     ├── hello_world.txt
+     └── hello_friends.txt
+</pre>
+</html>
